@@ -1,0 +1,62 @@
+body {
+    margin: 0;
+    padding: 0;
+}
+
+h1.nome{
+    padding: 15px;
+    color: rgb(241, 40, 73);
+}
+
+h1:hover{
+    color: yellow;
+}
+
+.fundo{
+    background-image: linear-gradient(45deg,rgb(223, 31, 111), yellow);
+    height: 100vh;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.calculadora{
+    position: absolute;
+    background-color: black;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    border-radius: 15px;
+    width: 280px;
+}
+
+.elementos {
+    padding: 16px;
+}
+
+.botao{
+    color: rgb(241, 40, 73);
+    height: 50px;
+    width: 50px;
+    font-size: 25px;
+    cursor: pointer;
+    background-color: rgb(160, 158, 158);
+    border: none;
+    margin: 3px;
+    border-radius: 5px;
+}
+
+.botao:hover{
+    color: yellow;
+}
+
+#resultado{
+    width: 220px;
+    background-color: black;
+    height: 50px;
+    color: yellow;
+    border: 1px solid rgb(241, 40, 73);
+    padding-left: 26px;
+    text-align: right;
+    font-size: 30px;
+    margin: 15px;
+}
